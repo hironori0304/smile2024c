@@ -17,8 +17,8 @@ if page == "食品データベース登録":
     st.markdown(
         """
         <style>
-        .main {
-            background-color: #e0f7fa;
+        .stApp {
+            background-color: #e0f7fa; /* 背景色を変更 */
         }
         </style>
         """,
@@ -28,13 +28,14 @@ elif page == "栄養価計算":
     st.markdown(
         """
         <style>
-        .main {
-            background-color: #fffde7;
+        .stApp {
+            background-color: #fffde7; /* 背景色を変更 */
         }
         </style>
         """,
         unsafe_allow_html=True
     )
+
     
 # 食品データベースのアップロード機能
 uploaded_file = st.sidebar.file_uploader("食品データベースをアップロード", type=['csv'])
