@@ -35,7 +35,6 @@ elif page == "栄養価計算":
         """,
         unsafe_allow_html=True
     )
-
     
 # 食品データベースのアップロード機能
 uploaded_file = st.sidebar.file_uploader("食品データベースをアップロード", type=['csv'])
